@@ -1,6 +1,6 @@
 # terraform-google-subnet
 
-이 모듈은 [terraform-google-module-template](https://stash.wemakeprice.com/users/lswoo/repos/terraoform-google-module-template/browse)에 의해서 생성되었습니다. 
+이 모듈은 [terraform-module-template](https://github.com/terraform-google-modules/terraform-google-module-template)에 의해서 생성되었습니다. 
 
 The resources that this module will create are:
 
@@ -12,7 +12,7 @@ The resources that this module will create are:
 
 ```hcl
 module "subnet" {
-  source = "git::https://stash.wemakeprice.com/scm/tgm/terraform-google-vpc-subnets.git"
+  source = "git::https://github.com/kube-arc/terraform-module-gcp-vpc-subnets.git"
 
   project_id         = "my-prod-project"
   network            = "my-prod-network"

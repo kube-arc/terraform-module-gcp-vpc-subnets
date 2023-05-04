@@ -11,4 +11,4 @@ validate_labels = {
     "terraform-module-version" = "v0.0.1"
 }
 
-impersonate_sa = "sa-terraform-deploy@prj-cc-production-devops-0006.iam.gserviceaccount.com"
+impersonate_sa = "IMPERSONATE_SERVICE_ACCOUNT" # Impersonate_Service_Account
