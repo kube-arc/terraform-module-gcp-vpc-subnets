@@ -1,6 +1,6 @@
 # terraform-google-subnet
 
-이 모듈은 [terraform-module-template](https://github.com/terraform-google-modules/terraform-google-module-template)에 의해서 생성되었습니다. 
+이 모듈은 [terraform-module-template](https://github.com/kube-arc/terraform-google-module-template)에 의해서 생성되었습니다. 
 
 The resources that this module will create are:
 
